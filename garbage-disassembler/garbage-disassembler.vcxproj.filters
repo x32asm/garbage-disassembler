@@ -15,27 +15,21 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Parser.cpp">
+    <ClCompile Include="procload.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Decoder.cpp">
+    <ClCompile Include="priviledges.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="WindowsProcess.cpp">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Parser.h">
+    <ClInclude Include="procload.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Decoder.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="WindowsProcess.h">
+    <ClInclude Include="priviledges.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
