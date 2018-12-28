@@ -24,12 +24,18 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="meminterface.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="procload.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="priviledges.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="meminterface.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
