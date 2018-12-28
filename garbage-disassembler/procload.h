@@ -14,9 +14,8 @@ namespace pld {
 	HANDLE GetProcessHandle(DWORD processId, DWORD desiredAccess = PROCESS_ALL_ACCESS);
 
 	LPVOID GetModuleBaseAddress(HANDLE processHandle, const CHAR * moduleName);
-	
-	BYTE * GetProcessBaseAddress(DWORD processId, const CHAR * processName);
 
+	BYTE * GetProcessBaseAddress(DWORD processId, const CHAR * processName);
 }
 
 #endif //GUARD_PROCLOAD_H
